@@ -1,0 +1,5 @@
+[0th] is 100
+[1th] is 0
+[2th] is 100
+[3th] is 0
+Avg is 50.
