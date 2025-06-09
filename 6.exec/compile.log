@@ -1,0 +1,8 @@
+a.c: In function ‘main’:
+a.c:10:5: warning: implicit declaration of function ‘xprintf’; did you mean ‘dprintf’? [-Wimplicit-function-declaration]
+   10 |     xprintf("Hello World!\n");
+      |     ^~~~~~~
+      |     dprintf
+/usr/bin/ld: /tmp/ccQ2Dp6Y.o: in function `main':
+a.c:(.text+0x15): undefined reference to `xprintf'
+collect2: error: ld returned 1 exit status

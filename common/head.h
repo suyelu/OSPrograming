@@ -24,6 +24,12 @@
 #include <grp.h>
 #include <time.h>
 #include <stdarg.h>
+#include <sys/wait.h>
+#include <sys/file.h>
+#include <sys/resource.h>
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#include <pthread.h>
 
 #include "common.h"
 #include "color.h"
